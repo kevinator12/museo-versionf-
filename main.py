@@ -807,7 +807,7 @@ def main(page: ft.Page):
                                         'Ir a "las redes sociales"',
                                         on_click=lambda _: page.go('/redes')
                                     ),
-                                    ft.Text("Los lenguajes de programación han evolucionado a lo largo de la historia, aquí te presentamos algunos de los más importantes:",color="white", size=15),
+                                    
                                     ft.Row(
                                         alignment="center",
                                         controls=[btn21,btn22,btn23,btn24]
@@ -850,7 +850,7 @@ def main(page: ft.Page):
                                         'Ir a "la informatica durante la pandemia"',
                                         on_click=lambda _: page.go('/pandemia')
                                     ),
-                                    ft.Text("Los lenguajes de programación han evolucionado a lo largo de la historia, aquí te presentamos algunos de los más importantes:"),
+                                    
                                     ft.Row(
                                         alignment="center",
                                         controls=[btn33,btn34,btn35,btn36]
@@ -905,7 +905,7 @@ def main(page: ft.Page):
                                         alignment="center",
                                         controls=[btn53,btn54,btn55,btn56]
                                     ),
-                                    ft.Text("Los lenguajes de programación han evolucionado a lo largo de la historia, aquí te presentamos algunos de los más importantes:"),
+                                    
                                     # Aquí puedes agregar el contenido específico para la sección de lenguajes de programación
                                 ],
                                 alignment=ft.MainAxisAlignment.START
